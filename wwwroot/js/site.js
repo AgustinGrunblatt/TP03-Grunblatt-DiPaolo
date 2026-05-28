@@ -1,0 +1,4 @@
+﻿RecorrerPalabra()
+{
+    foreach
+}
