@@ -13,7 +13,7 @@ using System.Reflection;
 [assembly: System.Reflection.AssemblyCompanyAttribute("TP03-Grunblatt-Dipaolo")]
 [assembly: System.Reflection.AssemblyConfigurationAttribute("Debug")]
 [assembly: System.Reflection.AssemblyFileVersionAttribute("1.0.0.0")]
-[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0")]
+[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+7bcca2aed4b41ee5a06f07ef37d750079f0c99ca")]
 [assembly: System.Reflection.AssemblyProductAttribute("TP03-Grunblatt-Dipaolo")]
 [assembly: System.Reflection.AssemblyTitleAttribute("TP03-Grunblatt-Dipaolo")]
 [assembly: System.Reflection.AssemblyVersionAttribute("1.0.0.0")]

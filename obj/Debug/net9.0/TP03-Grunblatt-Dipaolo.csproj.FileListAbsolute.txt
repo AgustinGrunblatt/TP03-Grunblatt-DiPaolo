@@ -93,4 +93,5 @@ Z:\2026\Programación\TP03-Grunblatt-Dipaolo\obj\Debug\net9.0\refint\TP03-Grunbl
 Z:\2026\Programación\TP03-Grunblatt-Dipaolo\obj\Debug\net9.0\TP03-Grunblatt-Dipaolo.pdb
 Z:\2026\Programación\TP03-Grunblatt-Dipaolo\obj\Debug\net9.0\TP03-Grunblatt-Dipaolo.genruntimeconfig.cache
 Z:\2026\Programación\TP03-Grunblatt-Dipaolo\obj\Debug\net9.0\ref\TP03-Grunblatt-Dipaolo.dll
-Z:\2026\Programación\TP03-Grunblatt-Dipaolo\obj\Debug\net9.0\compressed\eyj5votre1-orfow9jdi8.gz
+Z:\2026\Programación\TP03-Grunblatt-Dipaolo\obj\Debug\net9.0\TP03-Grunblatt-Dipaolo.sourcelink.json
+Z:\2026\Programación\TP03-Grunblatt-Dipaolo\obj\Debug\net9.0\compressed\eyj5votre1-vqgtn2xbd5.gz

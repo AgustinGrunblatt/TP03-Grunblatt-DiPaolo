@@ -18,10 +18,10 @@ public class HomeController : Controller
         PalabrasAhorcado palabra = new PalabrasAhorcado();
         ViewBag.Palabra = palabra.ObtenerPalabra();
        
-       ViewBag.Guiones ="";
+       ViewBag.PalabraOculta ="";
        for (int i=0 ; i< ViewBag.Palabra.Length; i++)
        {
-            ViewBag.Guiones = ViewBag.Guiones + "_ ";
+            ViewBag.PalabraOculta = ViewBag.PalabraOculta + "_ ";
        }
 
         return View();
