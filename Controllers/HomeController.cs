@@ -17,12 +17,12 @@ public class HomeController : Controller
     {
         PalabrasAhorcado palabra = new PalabrasAhorcado();
         ViewBag.Palabra = palabra.ObtenerPalabra();
-       
-       ViewBag.PalabraOculta ="";
-       for (int i=0 ; i< ViewBag.Palabra.Length; i++)
-       {
-            ViewBag.PalabraOculta = ViewBag.PalabraOculta + "_ ";
-       }
+        ViewBag.Intentos = 10;
+        ViewBag.PalabraOculta ="";
+        for (int i=0 ; i< ViewBag.Palabra.Length; i++)
+        {
+            ViewBag.PalabraOculta = ViewBag.PalabraOculta + "_";
+        }
 
         return View();
     }

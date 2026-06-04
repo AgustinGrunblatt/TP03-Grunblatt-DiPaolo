@@ -3,13 +3,16 @@
     <h2>Para participar de este emocionante juego tendrás que adivinar la palabra oculta, durante cada turno deberás seleccionar una letra </h2>
 </div>
 <section>
-    <div>
+    <div class="Oculta">
         <input type="hidden" id="Palabra" value="@ViewBag.Palabra">
 
-        <h2>@ViewBag.PalabraOculta</h2>
+        <h2 id = "Oculta"> @ViewBag.PalabraOculta</h2>
 
-        <h2>Elije una letra:</h2>
+        <h3>Elije una letra:</h3>
         <input type="text" maxlength="1" id="Letra" placeholder="Ej: A">
         <input type="button" onclick="ArriesgarLetra()" value ="Arriesgar Letra">
+    </div>
+    <div class="Intentos">  
+       Intentos Restantes: <p id ="Intento">@ViewBag.Intentos</p>
     </div>
 </section>
