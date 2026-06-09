@@ -17,7 +17,6 @@ public class HomeController : Controller
     {
         PalabrasAhorcado palabra = new PalabrasAhorcado();
         ViewBag.Palabra = palabra.ObtenerPalabra();
-        ViewBag.Intentos = 10;
         ViewBag.PalabraOculta ="";
         for (int i=0 ; i< ViewBag.Palabra.Length; i++)
         {

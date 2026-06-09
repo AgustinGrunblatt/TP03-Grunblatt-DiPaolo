@@ -21,7 +21,6 @@ Z:\2026\Programación\TP03-Grunblatt-Dipaolo\obj\Debug\net9.0\rjsmcshtml.dswa.ca
 Z:\2026\Programación\TP03-Grunblatt-Dipaolo\obj\Debug\net9.0\scopedcss\Views\Shared\_Layout.cshtml.rz.scp.css
 Z:\2026\Programación\TP03-Grunblatt-Dipaolo\obj\Debug\net9.0\scopedcss\bundle\TP03-Grunblatt-Dipaolo.styles.css
 Z:\2026\Programación\TP03-Grunblatt-Dipaolo\obj\Debug\net9.0\scopedcss\projectbundle\TP03-Grunblatt-Dipaolo.bundle.scp.css
-Z:\2026\Programación\TP03-Grunblatt-Dipaolo\obj\Debug\net9.0\compressed\ukqxef0lbw-b9sayid5wm.gz
 Z:\2026\Programación\TP03-Grunblatt-Dipaolo\obj\Debug\net9.0\compressed\bdsd2hyajq-61n19gt1b8.gz
 Z:\2026\Programación\TP03-Grunblatt-Dipaolo\obj\Debug\net9.0\compressed\119q3nyvfp-bqjiyaj88i.gz
 Z:\2026\Programación\TP03-Grunblatt-Dipaolo\obj\Debug\net9.0\compressed\3x82zlqdqh-c2jlpeoesf.gz
@@ -94,4 +93,5 @@ Z:\2026\Programación\TP03-Grunblatt-Dipaolo\obj\Debug\net9.0\TP03-Grunblatt-Dip
 Z:\2026\Programación\TP03-Grunblatt-Dipaolo\obj\Debug\net9.0\TP03-Grunblatt-Dipaolo.genruntimeconfig.cache
 Z:\2026\Programación\TP03-Grunblatt-Dipaolo\obj\Debug\net9.0\ref\TP03-Grunblatt-Dipaolo.dll
 Z:\2026\Programación\TP03-Grunblatt-Dipaolo\obj\Debug\net9.0\TP03-Grunblatt-Dipaolo.sourcelink.json
-Z:\2026\Programación\TP03-Grunblatt-Dipaolo\obj\Debug\net9.0\compressed\eyj5votre1-2d7lyqmiy9.gz
+Z:\2026\Programación\TP03-Grunblatt-Dipaolo\obj\Debug\net9.0\compressed\ukqxef0lbw-8td2i2hgvf.gz
+Z:\2026\Programación\TP03-Grunblatt-Dipaolo\obj\Debug\net9.0\compressed\eyj5votre1-ums397wqxg.gz
