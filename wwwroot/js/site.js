@@ -1,4 +1,6 @@
-﻿function ArriesgarLetra()
+﻿let letrasIntentadas = [];
+
+function ArriesgarLetra()
 {
     let LaLetra = document.getElementById("Letra").value.toUpperCase();
     let LaPalabraOculta = document.getElementById("Palabra").value;
