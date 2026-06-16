@@ -26,7 +26,7 @@ function ArriesgarLetra()
             }
         }
         oculta.innerText = palabraVacia;
-        if (oculta.innerText.includes("_"))
+        if (oculta.innerText.includes("_") = true)
         {   
             console.log("Entre en el otro if");
             rta.innerText = "Ganaste";
