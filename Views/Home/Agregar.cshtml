@@ -1,0 +1,8 @@
+<h2>Agregar nueva palabra</h2>
+
+<form action='@Url.Action("GuardarPalabra", "Home")' method="post">
+    <label>Palabra:</label>
+    <input type="text" name="palabra" required />
+
+    <button type="submit">Guardar</button>
+</form>

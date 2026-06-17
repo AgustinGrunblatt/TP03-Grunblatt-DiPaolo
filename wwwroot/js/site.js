@@ -3,6 +3,7 @@
 function ArriesgarLetra()
 {
     let LaLetra = document.getElementById("Letra").value.toUpperCase();
+    document.getElementById("Letra").value = "";
     let LaPalabraOculta = document.getElementById("Palabra").value;
     let oculta = document.getElementById("Oculta");
     let palabraVacia ="";
@@ -26,7 +27,7 @@ function ArriesgarLetra()
             }
         }
         oculta.innerText = palabraVacia;
-        if (oculta.innerText.includes("_") = true)
+        if (!oculta.innerText.includes("_"))
         {   
             console.log("Entre en el otro if");
             rta.innerText = "Ganaste";
@@ -36,7 +37,7 @@ function ArriesgarLetra()
         console.log("Entre al else");
         intentosRestantes = intentosRestantes - 1;
         console.log(intentosRestantes);
-        Intento.innerText = intentosRestantes;
+         document.getElementById("Intento").innerText = intentosRestantes;
         
         if (intentosRestantes < 1)
         {   
