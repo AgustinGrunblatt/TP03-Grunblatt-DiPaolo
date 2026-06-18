@@ -18,4 +18,11 @@
     <div class= "Resultados">
         <p id="resultado"></p>
     </div>
+    <div class="Add">
+        <h2>Agregar nueva palabra</h2>
+        <form action='@Url.Action("GuardarPalabra", "Home")' method="post">
+            Palabra: <input type="text" name="palabra"/>
+            <button type="submit">Guardar</button>
+        </form> 
+    </div>
 </section>

@@ -2,8 +2,10 @@ namespace TP03_Grunblatt_Dipaolo.Models;
 
 public class PalabrasAhorcado
 {
-    private List<string> palabras;
-        
+    public int Id { get; set; } 
+    public string NombrePalabra { get; set; }
+    public List<string> palabras;
+   
     public string ObtenerPalabra()
         {
             BD MiBase = new BD();
@@ -13,9 +15,9 @@ public class PalabrasAhorcado
             string palabraElegida = palabras[numeroAleatorio];
             return palabraElegida;
         }
-    public void ArchivarPalabra(string PalabraNueva)
-    {
-        BD MiBase = new BD();
-        MiBase.ArchivarPalabra(PalabraNueva);
-    }
+        public void Guardar()
+        {
+            BD bd = new BD();
+            bd.ArchivarPalabra(this.NombrePalabra.ToUpper());
+        }
 }

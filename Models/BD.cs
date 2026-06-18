@@ -16,12 +16,12 @@ public class BD
         }
     }
 
-   public void ArchivarPalabra(string nuevaPalabra)
-{
-    using (SqlConnection connection = new SqlConnection(_connectionString))
+    public void ArchivarPalabra(string nuevaPalabra)
     {
-        string query = "INSERT INTO Palabra (palabra) VALUES (@pPalabra)";
-        connection.Execute(query, new { pPalabra = nuevaPalabra });
+        using (SqlConnection connection = new SqlConnection(_connectionString))
+        {
+            string query = "INSERT INTO Palabra (palabra) VALUES (@pPalabra)";
+            connection.Execute(query, new { pPalabra = nuevaPalabra });
+        }
     }
-}
 }
