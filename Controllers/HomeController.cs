@@ -26,12 +26,11 @@ public class HomeController : Controller
         return View();
     }
    [HttpPost]
-    public IActionResult Agregar(string palabraFormulario)
+    public IActionResult GuardarPalabra(string palabra)
     {
-            PalabrasAhorcado nuevaPalabra = new PalabrasAhorcado();
-            nuevaPalabra.NombrePalabra = palabraFormulario;
-            nuevaPalabra.Guardar(); 
-
+        PalabrasAhorcado nuevaPalabra = new PalabrasAhorcado();
+        nuevaPalabra.NombrePalabra = palabra;
+        nuevaPalabra.Guardar(); 
         return RedirectToAction("Index");
     }
     
